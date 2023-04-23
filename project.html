@@ -4,33 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
   </head>
   <body background="imgbak.jpg">
     <!-- This iis the nav and header bar section -->
     <header>
-      <nav>
+      <nav class="navbar">
         <ul type="none">
           <li>Dr.Najim</li>
-        </ul>
-        <ul type="none">
-          <li>About</li>
-          <li>Work</li>
-          <li>Skills</li>
-          <li>Resume</li>
-          <li>Contact</li>
+          <div class="image">
+            <img src="fac.webp" alt="" /> <img src="inst.webp" alt="" />
+            <img src="wat.webp" alt="" /><img src="link.webp" alt="" />
+            </div>
+            <a href="#footer" class="golink">Go to the footer</a>
         </ul>
       </nav>
+      <ul type="none" class="listnav">
+        <li>About</li>
+        <li>Work</li>
+        <li>Skills</li>
+        <li>Resume</li>
+        <li>Contact</li>
+      </ul>
     </header>
     <!-- Adding some spaces -->
 
-    <br /><br /><br /><br /><br /><br />
+    <br />
     <!-- This section tal about the description of each title on navbar -->
 
-    <a href="#footer">Go to the footer</a>
-    <section>
-      <img src="fac.webp" alt="" /> <img src="inst.webp" alt="" />
-      <img src="wat.webp" alt="" /><img src="link.webp" alt="" />
+   
+    <section >
       <h1>I am Dr. Najim</h1>
       <p>
         I am a full stuck developper Lorem ipsum dolor sit amet consectetur
@@ -38,9 +42,10 @@
         neque quo nam temporibus autem doloribus mollitia architecto, numquam
         laudantium quae dolorum! Voluptas nihil ut earum.
       </p>
-      <label><small>check the description about this bootcamp:</small></label
-      ><br />
-      <iframe
+     
+      <label class="sectionvideo"><small class='sectionvideo'>check the description about this bootcamp:</small></label
+      >
+      <iframe class="sectionvideo"
         width="560"
         height="315"
         src="https://www.youtube.com/embed/olJOZp57FWM"
@@ -51,27 +56,29 @@
       ></iframe>
     </section>
     <article>
-      <div>
+      <div class="middle">
+      <div class="middle one">
         <h2>About</h2>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsam
         quisquam provident. Quod illum fugiat reiciendis quo corrupti
         perspiciatis aut debitis adipisci, officiis velit itaque eveniet iusto
         tempora consectetur explicabo.
       </div>
-      <div>
+      <div class="middle two">
         <h2>Work</h2>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
         doloremque nemo pariatur quasi magnam laudantium temporibus. Nulla
         aperiam cum, velit rerum non dolorum ipsa veniam eveniet quidem.
         Repellendus, nam sit?
       </div>
-      <div>
+      <div class="middle tree">
         <h2>Skills</h2>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
         dolorum distinctio tempora delectus? Magnam eaque placeat commodi
         dignissimos ad. Non sunt dicta repellat nam laborum, cum numquam
         sapiente? Aspernatur, possimus!
       </div>
+    </div>
       <div>
         <h2>Resume</h2>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit unde
